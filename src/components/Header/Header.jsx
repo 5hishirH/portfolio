@@ -9,7 +9,7 @@ const Header = () => {
         {/* desktop */}
         <div className="hidden w-3/5 mx-auto lg:flex justify-between py-32">
           <div className="flex items-center">
-            <div className="">
+            <div>
               <p className="text-3xl">Hi, I am</p>
               <h2 className="text-6xl font-semibold mt-5 mb-3">
                 Shishir Halder
@@ -39,7 +39,7 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <p className="text-4xl font-light">I'm</p>
+            <p className="text-4xl font-light">I am</p>
             <h2 className="text-4xl mt-6">Shishir Halder</h2>
           </div>
         </div>
