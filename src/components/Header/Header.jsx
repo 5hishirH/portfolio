@@ -29,24 +29,24 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile */}
-      <div className="lg:hidden">
-        <div className="bg-[#2C3E50] text-[#ECF0F1] pt-16 pb-6 px-10">
+      <div className="lg:hidden p-8">
+        <div className="bg-[#2C3E50] text-[#ECF0F1] pt-8 pb-6 px-4 rounded-xl">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
-              <div className="w-60 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
+              <div className="w-56 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
                 <Image src={profilePicM} height={300} width={300}></Image>
               </div>
             </div>
           </div>
           <div>
             <p className="text-4xl font-light">I'm</p>
-            <h2 className="text-5xl mt-8">Shishir Halder</h2>
+            <h2 className="text-4xl mt-6">Shishir Halder</h2>
           </div>
         </div>
-        <div className="font-light italic px-10 pt-6">
-          I currently specialize in frontend development, with a keen aspiration
+        <div className="font-light px-1 pt-6">
+          I currently specialize in frontend web development, with a keen aspiration
           to elevate my skill set and transition into the esteemed realm of
-          full-stack development.
+          full-stack web development.
         </div>
       </div>
     </>
