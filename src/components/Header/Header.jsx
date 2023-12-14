@@ -23,7 +23,7 @@ const Header = () => {
           </div>
           <div className="avatar">
             <div className="w-80 rounded-full">
-              <Image src={profilePic} height={500} width={500}></Image>
+              <Image src={profilePic} height={500} width={500} alt="Shishir"></Image>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Header = () => {
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
               <div className="w-56 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
-                <Image src={profilePicM} height={300} width={300}></Image>
+                <Image src={profilePicM} height={300} width={300} alt="Shishir"></Image>
               </div>
             </div>
           </div>
