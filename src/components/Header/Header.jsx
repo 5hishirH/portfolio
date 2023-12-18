@@ -1,20 +1,25 @@
 import Image from "next/image";
 import profilePic from "@/assets/bannerPic.png";
 import profilePicM from "@/assets/bannerMobilePic.png";
+import { Caveat } from "next/font/google";
+
+const rosarivo = Caveat({ subsets: ["latin"] });
 
 const Header = () => {
   return (
     <>
       <div className="bg-[#2C3E50] text-[#ECF0F1]">
         {/* desktop */}
-        <div className="hidden w-3/5 mx-auto lg:flex justify-between py-32">
+        <div className="hidden w-3/5 mx-auto lg:flex justify-between py-32 h-screen items-center">
           <div className="flex items-center">
             <div>
-              <p className="text-3xl">Hi, I am</p>
-              <h2 className="text-6xl font-semibold mt-5 mb-3">
-                Shishir Halder
-              </h2>
-              <p className="text-xl font-light max-w-[33vw] text-justify">
+              <p className="text-3xl font-semibold">Hi, I am</p>
+              <div className="mt-5 mb-3">
+                <h2 className={rosarivo.className}>
+                  <span className="text-7xl font-bold">Shishir Halder</span>
+                </h2>
+              </div>
+              <p className="text-xl font-light max-w-[33vw] leading-relaxed">
                 I currently specialize in frontend development, with a keen
                 aspiration to elevate my skill set and transition into the
                 esteemed realm of full-stack development.
@@ -23,7 +28,12 @@ const Header = () => {
           </div>
           <div className="avatar">
             <div className="w-80 rounded-full">
-              <Image src={profilePic} height={500} width={500} alt="Shishir"></Image>
+              <Image
+                src={profilePic}
+                height={500}
+                width={500}
+                alt="Shishir"
+              ></Image>
             </div>
           </div>
         </div>
@@ -34,7 +44,12 @@ const Header = () => {
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
               <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
-                <Image src={profilePicM} height={300} width={300} alt="Shishir"></Image>
+                <Image
+                  src={profilePicM}
+                  height={300}
+                  width={300}
+                  alt="Shishir"
+                ></Image>
               </div>
             </div>
           </div>
@@ -44,10 +59,11 @@ const Header = () => {
           </div>
         </div>
         <div className="font-light px-1 pt-6">
-          I currently specialize in frontend web development, with a keen aspiration
-          to elevate my skill set and transition into the esteemed realm of
-          full-stack web development.
+          I currently specialize in frontend web development, with a keen
+          aspiration to elevate my skill set and transition into the esteemed
+          realm of full-stack web development.
         </div>
+        <div className="divider"></div>
       </div>
     </>
   );
