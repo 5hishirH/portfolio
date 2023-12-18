@@ -1,6 +1,7 @@
 import Image from "next/image";
 import profilePic from "@/assets/bannerPic.png";
 import profilePicM from "@/assets/bannerMobilePic.png";
+import profileTransparent from "@/assets/profileTransparent.svg";
 import { Caveat } from "next/font/google";
 import Dbtn from "../DownloadBtn/Dbtn";
 
