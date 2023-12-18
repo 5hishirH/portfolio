@@ -1,9 +1,19 @@
 import { FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
-import { SiDaisyui, SiMongodb, SiTailwindcss } from "react-icons/si";
+import {
+  SiDaisyui,
+  SiExpress,
+  SiJavascript,
+  SiMongodb,
+  SiTailwindcss,
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import Image from "next/image";
+import pyLogo from "@/assets/python.png";
+import cLogo from "@/assets/c.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-[#6b574e] pt-4 lg:pt-24">
+    <div className="bg-[#6b574e] pt-4 lg:py-24">
       <div className="lg:w-3/5 lg:mx-auto mx-8 text-white">
         <h2 className="text-2xl lg:text-3xl font-bold">
           <span className="hidden lg:inline-block">
@@ -50,43 +60,51 @@ const Skills = () => {
           </div>
           <div>
             <h2 className="text-xl font-medium mt-8 mb-4">Backend</h2>
-            <ul className="grid grid-cols-3 gap-6">
-              {["ExpressJS"].map((e, i) => (
-                <li
-                  key={i}
-                  className="border-2 border-[#2C3E50] rounded-md px-10 py-4 "
-                >
-                  {e}
-                </li>
-              ))}
+            <ul className="grid grid-cols-3 gap-6 text-black">
+              <li className="bg-white rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
+                <SiExpress className="text-2xl lg:text-3xl" />
+                Express
+              </li>
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-medium mt-8 mb-4">Framework</h2>
-            <ul className="grid grid-cols-3 gap-6">
-              {["Next.js"].map((e, i) => (
-                <li
-                  key={i}
-                  className="border-2 border-[#2C3E50] rounded-md px-10 py-4 "
-                >
-                  {e}
-                </li>
-              ))}
+            <h2 className="text-xl font-medium mt-8 mb-4">React Framework</h2>
+            <ul className="grid grid-cols-3 gap-6 text-black">
+              <li className="bg-white rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
+                <TbBrandNextjs className="text-2xl lg:text-3xl" />
+                Nextjs
+              </li>
             </ul>
           </div>
           <div>
             <h2 className="text-xl font-medium mt-8 mb-4">
               Programming Languages
             </h2>
-            <ul className="grid grid-cols-3 gap-6">
-              {["JavaScript", "C", "Python"].map((e, i) => (
-                <li
-                  key={i}
-                  className="border-2 border-[#2C3E50] rounded-md px-10 py-4 "
-                >
-                  {e}
-                </li>
-              ))}
+            <ul className="grid grid-cols-3 gap-6 text-black">
+              <li className="bg-white rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
+                <SiJavascript className="text-2xl lg:text-3xl text-yellow-400" />
+                JavaSript
+              </li>
+              <li className="bg-white rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
+                <Image
+                  src={pyLogo}
+                  alt="pythonLogo"
+                  height={32}
+                  width={32}
+                  className="h-7 w-7"
+                />
+                <span>Python</span>
+              </li>
+              <li className="bg-white rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
+                <Image
+                  src={cLogo}
+                  alt="cLogo"
+                  height={32}
+                  width={32}
+                  className="h-8 w-8"
+                />
+                <span>C</span>
+              </li>
             </ul>
           </div>
         </div>
