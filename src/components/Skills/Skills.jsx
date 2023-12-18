@@ -13,7 +13,7 @@ import cLogo from "@/assets/c.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-[#6b574e] mt-10 lg:mt-0 mx-6 lg:mx-0 rounded-xl py-10 lg:py-40">
+    <div className="bg-[#6b574e] mt-10 lg:mt-0 mx-6 lg:mx-0 rounded-xl lg:rounded-none py-10 lg:py-40">
       <div className="lg:w-3/5 lg:mx-auto mx-6 text-white">
         <h2 className="text-3xl font-bold">
           <span className="hidden lg:inline-block">
