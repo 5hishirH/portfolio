@@ -40,7 +40,7 @@ const Header = () => {
       </div>
       {/* Mobile */}
       <div className="lg:hidden m-6 h-[100svh]">
-        <div className="bg-[#2C3E50] text-[#ECF0F1] py-24 px-6 rounded-xl">
+        <div className="bg-[#2C3E50] text-[#ECF0F1] py-16 px-6 rounded-xl">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
               <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
