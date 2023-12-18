@@ -62,7 +62,7 @@ const Header = () => {
             <h2 className="text-4xl mt-4">Shishir Halder</h2>
           </div>
         </div>
-        <div className="font-light px-1 pt-7 leading-loose">
+        <div className="font-light px-1 pt-7 leading-relaxed">
           I currently specialize in frontend web development, with a keen
           aspiration to elevate my skill set and transition into the esteemed
           realm of full-stack web development.
