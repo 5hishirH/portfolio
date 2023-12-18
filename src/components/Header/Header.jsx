@@ -8,21 +8,21 @@ const rosarivo = Caveat({ subsets: ["latin"] });
 const Header = () => {
   return (
     <>
-      <div className="bg-[#2C3E50] text-[#ECF0F1]">
+      <div className="bg-[#303736] text-[#ECF0F1]">
         {/* desktop */}
         <div className="hidden w-3/5 mx-auto lg:flex justify-between py-32 h-screen items-center">
           <div className="flex items-center">
             <div>
               <p className="text-3xl font-semibold">Hi, I am</p>
               <div className="mt-5 mb-3">
-                <h2 className={rosarivo.className}>
+                <h2>
                   <span className="text-7xl font-bold">Shishir Halder</span>
                 </h2>
               </div>
-              <p className="text-xl font-light max-w-[33vw] leading-relaxed">
-                I currently specialize in frontend development, with a keen
+              <p className="text-xl font-light max-w-[34vw] leading-relaxed text-justify">
+                I currently specialize in frontend web development, with a keen
                 aspiration to elevate my skill set and transition into the
-                esteemed realm of full-stack development.
+                esteemed realm of full-stack web development.
               </p>
             </div>
           </div>

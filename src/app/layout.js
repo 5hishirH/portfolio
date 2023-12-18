@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google'
+import { Inconsolata } from 'next/font/google'
 import './globals.css'
 import Footer from '@/components/Footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inconsolata = Inconsolata({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Shishir Halder',
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inconsolata.className}>
         {children}
         <Footer/>
       </body>
