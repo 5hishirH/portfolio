@@ -39,8 +39,8 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile */}
-      <div className="lg:hidden p-8">
-        <div className="bg-[#2C3E50] text-[#ECF0F1] pt-8 pb-6 px-4 rounded-xl">
+      <div className="lg:hidden m-6 h-[100svh]">
+        <div className="bg-[#2C3E50] text-[#ECF0F1] py-24 px-6 rounded-xl">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
               <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
@@ -54,16 +54,15 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <p className="text-4xl font-light">I'm</p>
+            <p className="text-4xl font-light mt-8">I'm</p>
             <h2 className="text-4xl mt-6">Shishir Halder</h2>
           </div>
         </div>
-        <div className="font-light px-1 pt-6">
+        <div className="font-light px-1 pt-10 leading-loose">
           I currently specialize in frontend web development, with a keen
           aspiration to elevate my skill set and transition into the esteemed
           realm of full-stack web development.
         </div>
-        <div className="divider"></div>
       </div>
     </>
   );
