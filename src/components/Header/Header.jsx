@@ -2,6 +2,7 @@ import Image from "next/image";
 import profilePic from "@/assets/bannerPic.png";
 import profilePicM from "@/assets/bannerMobilePic.png";
 import { Caveat } from "next/font/google";
+import Dbtn from "../DownloadBtn/Dbtn";
 
 const rosarivo = Caveat({ subsets: ["latin"] });
 
@@ -24,6 +25,8 @@ const Header = () => {
                 aspiration to elevate my skill set and transition into the
                 esteemed realm of full-stack web development.
               </p>
+              <div className="mt-4"></div>
+              <Dbtn />
             </div>
           </div>
           <div className="avatar">
@@ -40,10 +43,10 @@ const Header = () => {
       </div>
       {/* Mobile */}
       <div className="lg:hidden mt-6 mx-6 h-[100svh]">
-        <div className="bg-[#2C3E50] text-[#ECF0F1] py-12 px-6 rounded-xl">
+        <div className="bg-secondary text-[#ECF0F1] py-8 px-6 rounded-xl">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
-              <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-[#2C3E50] ring-offset-8">
+              <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-secondary ring-offset-8">
                 <Image
                   src={profilePicM}
                   height={300}
@@ -54,8 +57,8 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <p className="text-4xl font-light mt-8">I'm</p>
-            <h2 className="text-4xl mt-6">Shishir Halder</h2>
+            <p className="text-4xl font-light mt-6">I'm</p>
+            <h2 className="text-4xl mt-4">Shishir Halder</h2>
           </div>
         </div>
         <div className="font-light px-1 pt-7 leading-loose">
@@ -63,6 +66,8 @@ const Header = () => {
           aspiration to elevate my skill set and transition into the esteemed
           realm of full-stack web development.
         </div>
+        <div className="mt-6"></div>
+        <Dbtn />
       </div>
     </>
   );
