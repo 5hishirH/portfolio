@@ -26,7 +26,7 @@ const Skills = () => {
             <h2 className="text-lg lg:text-xl font-medium mt-4 lg:mt-8 mb-4">
               Frontend Development
             </h2>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-black">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4 text-black">
               <li className="bg-slate-200 rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
                 <FaHtml5 className="text-2xl lg:text-3xl text-orange-600" />
                 HTML
@@ -53,7 +53,7 @@ const Skills = () => {
             <h2 className="text-lg lg:text-xl font-medium mt-4 lg:mt-8 mb-4">
               Database
             </h2>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-black">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4 text-black">
               <li className="bg-slate-200 rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
                 <SiMongodb className="text-2xl lg:text-3xl text-green-600" />
                 MongoDB
@@ -64,7 +64,7 @@ const Skills = () => {
             <h2 className="text-lg lg:text-xl font-medium mt-4 lg:mt-8 mb-4">
               Backend
             </h2>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-black">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4 text-black">
               <li className="bg-slate-200 rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
                 <SiExpress className="text-2xl lg:text-3xl" />
                 Express
@@ -75,7 +75,7 @@ const Skills = () => {
             <h2 className="text-lg lg:text-xl font-medium mt-4 lg:mt-8 mb-4">
               React Framework
             </h2>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-black">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4 text-black">
               <li className="bg-slate-200 rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
                 <TbBrandNextjs className="text-2xl lg:text-3xl" />
                 Nextjs
@@ -86,7 +86,7 @@ const Skills = () => {
             <h2 className="text-lg lg:text-xl font-medium mt-4 lg:mt-8 mb-4">
               Programming Languages
             </h2>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-black">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-4 text-black">
               <li className="bg-slate-200 rounded-md px-3 py-2 lg:px-10 lg:py-4 flex gap-4 items-center lg:text-lg">
                 <SiJavascript className="text-2xl lg:text-3xl text-yellow-400" />
                 JavaSript
