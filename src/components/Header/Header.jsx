@@ -18,10 +18,10 @@ const Header = () => {
               <p className="text-3xl font-semibold">Hi, I am</p>
               <div className="mt-5 mb-3">
                 <h2>
-                  <span className="text-7xl font-bold">Shishir Halder</span>
+                  <span className="text-6xl font-bold">Shishir Halder</span>
                 </h2>
               </div>
-              <p className="text-xl font-light max-w-[34vw] leading-relaxed text-justify">
+              <p className="text-xl font-light max-w-[30vw] leading-relaxed text-justify">
                 I currently specialize in frontend web development, with a keen
                 aspiration to elevate my skill set and transition into the
                 esteemed realm of full-stack web development.
