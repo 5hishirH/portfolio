@@ -24,7 +24,7 @@ module.exports = {
           accent: "#444b4a",
           neutral: "#d1d5db",
           "base-100": "#f4f4f4",
-          info: "#59bd99",
+          info: "#595e5e",
           success: "#5cb85c",
           warning: "#f0ad4e",
           error: "#d9535f",
