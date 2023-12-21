@@ -42,7 +42,7 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile */}
-      <div className="lg:hidden bg-accent h-[100svh]">
+      <div className="lg:hidden bg-accent min-h-[100svh]">
         <div className="bg-secondary text-[#ECF0F1] py-10 px-10">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
