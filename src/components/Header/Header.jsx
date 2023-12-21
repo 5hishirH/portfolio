@@ -1,7 +1,6 @@
 import Image from "next/image";
 import profilePic from "@/assets/bannerPic.png";
 import profilePicM from "@/assets/bannerMobilePic.png";
-import profileTransparent from "@/assets/profileTransparent.svg";
 import { Caveat } from "next/font/google";
 import Dbtn from "../DownloadBtn/Dbtn";
 
@@ -10,7 +9,7 @@ const rosarivo = Caveat({ subsets: ["latin"] });
 const Header = () => {
   return (
     <>
-      <div className="bg-[#303736] text-[#ECF0F1]">
+      <div className="bg-secondary text-[#ECF0F1]">
         {/* desktop */}
         <div className="hidden w-3/5 mx-auto lg:flex justify-between py-32 h-screen items-center">
           <div className="flex items-center">
@@ -43,8 +42,8 @@ const Header = () => {
         </div>
       </div>
       {/* Mobile */}
-      <div className="lg:hidden mt-6 mx-6 h-[100svh]">
-        <div className="bg-secondary text-[#ECF0F1] py-8 px-6 rounded-xl">
+      <div className="lg:hidden bg-accent h-[100svh]">
+        <div className="bg-secondary text-[#ECF0F1] py-10 px-10">
           <div className="flex justify-end mx-3 my-3">
             <div className="avatar">
               <div className="w-44 rounded-full ring ring-[#ECF0F1] ring-offset-secondary ring-offset-8">
@@ -58,17 +57,19 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <p className="text-4xl font-light mt-6">I'm</p>
-            <h2 className="text-4xl mt-4">Shishir Halder</h2>
+            <p className="text-3xl font-light mt-6">I'm</p>
+            <h2 className="text-3xl mt-4">Shishir Halder</h2>
           </div>
         </div>
-        <div className="font-light px-1 pt-7 leading-relaxed">
-          I currently specialize in frontend web development, with a keen
-          aspiration to elevate my skill set and transition into the esteemed
-          realm of full-stack web development.
+        <div className="text-white py-10 px-10">
+          <div className="font-light px-1 leading-relaxed">
+            I currently specialize in frontend web development, with a keen
+            aspiration to elevate my skill set and transition into the esteemed
+            realm of full-stack web development.
+          </div>
+          <div className="mt-6"></div>
+          <Dbtn />
         </div>
-        <div className="mt-6"></div>
-        <Dbtn />
       </div>
     </>
   );
