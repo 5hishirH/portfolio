@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <div className="bg-accent lg:bg-secondary py-10 lg:py-40 text-white">
-      <div className="lg:w-3/5 lg:mx-auto mx-6">
+      <div className="lg:w-3/5 lg:mx-auto mx-10">
         <h2 className="text-3xl font-bold">EDUCATION</h2>
         <div className="relative -mt-8">
           <ul className="steps steps-vertical">
