@@ -25,7 +25,7 @@ const ProjectCards = ({ data }) => {
         <div className="flex mt-4">
           <div className="grid grid-cols-2 gap-2">
             <a
-              href={data?.githubLInk}
+              href={data?.githubLink}
               className="btn btn-primary btn-sm btn-outline"
               target="_blank"
             >
