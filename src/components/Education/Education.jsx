@@ -1,17 +1,17 @@
 const Education = () => {
   return (
-    <div className="bg-accent lg:bg-secondary py-10 lg:py-40 text-white">
+    <div className="bg-secondary lg:bg-accent py-10 lg:py-40 text-white">
       <div className="lg:w-3/5 lg:mx-auto mx-10">
         <h2 className="text-3xl font-bold">EDUCATION</h2>
         <div className="relative -mt-8">
           <ul className="steps steps-vertical">
-            <li data-content="●" className="step step-secondary lg:step-info">
+            <li data-content="●" className="step step-info lg:step-secondary">
               <div className="h-52 lg:h-40 flex items-center">(Current)</div>
             </li>
-            <li data-content="✓" className="step step-secondary lg:step-info">
+            <li data-content="✓" className="step step-info lg:step-secondary">
               <div className="h-52 lg:h-40 flex items-center">2020</div>
             </li>
-            <li data-content="✓" className="step step-secondary lg:step-info">
+            <li data-content="✓" className="step step-info lg:step-secondary">
               <div className="h-52 lg:h-40 flex items-center">2018</div>
             </li>
           </ul>

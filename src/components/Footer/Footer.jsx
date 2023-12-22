@@ -4,7 +4,7 @@ import { SiHackerrank, SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-info lg:bg-secondary py-6">
+    <footer className="bg-secondary lg:bg-accent py-6">
       <div className="lg:w-3/5 lg:mx-auto flex flex-col items-center lg:flex-row lg:justify-between">
         <h2 className="font-light text-white text-center">
           Copyright © 2023 - All right reserved

@@ -13,7 +13,7 @@ import cLogo from "@/assets/c.svg";
 
 const Skills = () => {
   return (
-    <div className="bg-secondary lg:bg-accent py-10 lg:py-40">
+    <div className="bg-accent lg:bg-secondary py-10 lg:py-40">
       <div className="lg:w-3/5 lg:mx-auto mx-10 text-white">
         <h2 className="text-3xl font-bold">
           <span className="hidden lg:inline-block">
@@ -27,7 +27,7 @@ const Skills = () => {
               Frontend Development
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white">
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <FaHtml5 className="text-2xl lg:text-3xl text-orange-600" />
                   HTML 100%
@@ -38,7 +38,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <FaCss3Alt className="text-2xl lg:text-3xl text-blue-600" />
                   CSS 90%
@@ -49,7 +49,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <SiTailwindcss className="text-2xl lg:text-3xl text-sky-400" />
                   Tailwind 100%
@@ -60,7 +60,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <SiDaisyui className="text-2xl lg:text-3xl" />
                   Daisyui 80%
@@ -71,7 +71,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <FaReact className="text-2xl lg:text-3xl text-sky-600" />
                   React 65%
@@ -89,7 +89,7 @@ const Skills = () => {
               Database
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white">
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <SiMongodb className="text-2xl lg:text-3xl text-green-600" />
                   MongoDB 40%
@@ -107,7 +107,7 @@ const Skills = () => {
               Backend
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white">
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <SiExpress className="text-2xl lg:text-3xl" />
                   Express 35%
@@ -125,7 +125,7 @@ const Skills = () => {
               React Framework
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white">
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4   lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4   lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <TbBrandNextjs className="text-2xl lg:text-3xl" />
                   Nextjs 70%
@@ -143,7 +143,7 @@ const Skills = () => {
               Programming Languages
             </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-white">
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <SiJavascript className="text-2xl lg:text-3xl text-yellow-400" />
                   JavaSript 85%
@@ -154,7 +154,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <Image
                     src={pyLogo}
@@ -171,7 +171,7 @@ const Skills = () => {
                   max="100"
                 ></progress>
               </li>
-              <li className="bg-accent lg:bg-secondary rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
+              <li className="bg-secondary lg:bg-accent rounded-md px-4 py-3 lg:px-10 lg:py-4 lg:text-lg">
                 <div className="flex gap-4 items-center">
                   <Image
                     src={cLogo}

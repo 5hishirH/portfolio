@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="bg-secondary lg:bg-accent text-white py-10">
+    <div className="bg-accent lg:bg-secondary text-white py-10">
       <div className="w-4/5 lg:w-3/5 mx-auto">
         <h2 className="text-3xl">Contact me</h2>
         <div>
