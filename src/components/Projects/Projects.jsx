@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       name: "JobAltas",
-      info: "A listing website",
+      info: "A job listing website",
       githubLink: "https://github.com/5hishirH/JobAltas-client",
       liveLink: "https://job-listing-website.web.app/",
       tech: [
