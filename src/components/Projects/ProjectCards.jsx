@@ -15,7 +15,7 @@ const ProjectCards = ({ data }) => {
             {data?.tech?.map((e, i) => (
               <span
                 key={i}
-                className="bg-secondary rounded-sm px-1 text-sm font-extralight"
+                className="bg-accent lg:bg-secondary rounded-sm px-1 text-sm font-extralight"
               >
                 {e}
               </span>
