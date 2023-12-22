@@ -13,7 +13,12 @@ const ProjectCards = ({ data }) => {
           <span>Technologies: </span>
           <span className="mt-1 flex flex-wrap gap-2">
             {data?.tech?.map((e, i) => (
-              <span className="bg-secondary rounded-sm px-1 text-sm font-extralight">{e}</span>
+              <span
+                key={i}
+                className="bg-secondary rounded-sm px-1 text-sm font-extralight"
+              >
+                {e}
+              </span>
             ))}
           </span>
         </div>
